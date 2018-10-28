@@ -1,0 +1,14 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/article/article"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#222",
+    "navigationBarTitleText": "猎人杂货铺",
+    "navigationBarTextStyle": "#fff"
+  }
+}

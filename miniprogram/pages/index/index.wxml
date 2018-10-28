@@ -1,0 +1,22 @@
+<view class="page">
+  <view class="site-info-block">
+    <view class="title-block">
+      <view class="subtitle">{{ siteInfo.subtitle }}</view>
+    </view>
+  </view>
+
+  <view>
+    <van-tabs active="{{ selectedCategoryIndex != '' ? selectedCategoryIndex : 0 }}" bind:change="categoryChanged">
+      <block wx:for="{{ categoryList }}" wx:key="item.name">
+        <van-tab title="{{ item.name }}"></van-tab>
+      </block>
+    </van-tabs>
+  </view>
+
+  <view>
+    <view wx:for="{{ categoryPostList }}" wx:key="{{ item.title }}" bindtap="jumpToArticle" data-slug="{{ item.slug }}" hover-class="navigator-hover">
+      <van-panel title="{{ item.title }}" desc="{{ item.excerpt }}" custom-class="article-panel">
+      </van-panel>
+    </view>
+  </view>
+</view>

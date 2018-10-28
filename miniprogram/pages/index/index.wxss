@@ -1,0 +1,34 @@
+/**index.wxss**/
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.site-info-block {
+  padding: 5px;
+}
+
+.site-info-block .title-block {
+  padding: 10px;
+  border: 1px solid;
+  outline: 1px solid;
+  outline-offset: -5px;
+}
+
+.site-info-block .subtitle {
+  text-align: center;
+}
+
+.article-panel .van-cell__label {
+  display: -webkit-box;
+  overflow: hidden;
+
+  word-break: break-all;
+  text-overflow: ellipsis;
+
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}

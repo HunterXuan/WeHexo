@@ -1,0 +1,6 @@
+<page>
+  <view class="article-title">{{ articleInfo.title }}</view>
+  <view class="article-content">
+    <rich-text nodes="{{ articleInfo.content }}"></rich-text>
+  </view>
+</page>
