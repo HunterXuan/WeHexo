@@ -1,10 +1,9 @@
 /* pages/article/article.wxss */
+@import '/towxml/style/main.wxss';
+@import '/towxml/style/theme/light.wxss';
+
 .article-title {
   font-size: 20px;
   font-weight: bold;
   padding: 10px 15px;
-}
-
-.article-content {
-  padding: 0 15px;
 }

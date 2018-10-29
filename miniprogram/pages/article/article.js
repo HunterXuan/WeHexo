@@ -85,8 +85,11 @@ Page({
         'articleSlug': that.data.articleSlug
       },
       success: response => {
+        let towxmlData = app.towxml.toJson(response.result.content, 'html')
+        
         that.setData({
-          articleInfo: response.result
+          articleInfo: response.result,
+          articleTowXml: towxmlData
         }, () => {
           wx.hideLoading()
         })

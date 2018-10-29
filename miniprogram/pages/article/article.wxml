@@ -1,6 +1,7 @@
+<import src="/towxml/entry.wxml"/>
 <page>
   <view class="article-title">{{ articleInfo.title }}</view>
   <view class="article-content">
-    <rich-text nodes="{{ articleInfo.content }}"></rich-text>
+    <template is="entry" data="{{...articleTowXml}}"/>
   </view>
 </page>
