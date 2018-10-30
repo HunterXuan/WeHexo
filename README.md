@@ -21,4 +21,4 @@ Hexo 博客安装 [yscoder/hexo-generator-restful](https://github.com/yscoder/he
 ![猎人杂货铺 • 微信公众号](https://hunterx.xyz/images/wechat-qrcode.jpg "猎人杂货铺 • 微信公众号")
 
 ## 目前的效果
-![demo](https://hunterx.xyz/try-wehexo/demo.gif "demo")
+详见 [尝试 Hexo 转小程序](https://hunterx.xyz/try-wehexo.html)
